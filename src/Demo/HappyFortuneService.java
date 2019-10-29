@@ -5,6 +5,6 @@ import Demo.FortuneService;
 public class HappyFortuneService implements FortuneService {
     @Override
     public String getFortune() {
-        return "Today is your luckey day";
+        return "Today is your lucky day";
     }
 }
