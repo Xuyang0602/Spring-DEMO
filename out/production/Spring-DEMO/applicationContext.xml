@@ -13,8 +13,13 @@
 
 
 	<bean id="myCoach" class="Demo.BaseballCoach">
-		<!-- Set up constructor injection -->
+		<!-- 	Set up constructor injection -->
 		<constructor-arg ref="myFortune"/>
+	</bean>
+
+	<bean id="myBasketballCoach" class="Demo.BasketballCoach">
+		<!--	Set up setter injection	-->
+		<property name="fortuneService" ref="myFortune"/>
 	</bean>
 
 </beans>
