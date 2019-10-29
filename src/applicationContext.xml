@@ -20,6 +20,10 @@
 	<bean id="myBasketballCoach" class="Demo.BasketballCoach">
 		<!--	Set up setter injection	-->
 		<property name="fortuneService" ref="myFortune"/>
+
+		<!--	Inject Literal Values	-->
+		<property name="emailAddress" value="xuyangwang@com"/>
+		<property name="team" value="Rose"/>
 	</bean>
 
 </beans>
